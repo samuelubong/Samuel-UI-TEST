@@ -1,0 +1,19 @@
+{
+  "name": "ui-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-test": "cucumber-js test",
+    "test": "npm run start-test & npx ts-node ./index.ts"
+  },
+
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.1.0",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.13",
+    "cucumber-html-reporter": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  }
+}

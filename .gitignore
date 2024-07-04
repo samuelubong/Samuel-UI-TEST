@@ -1,0 +1,6 @@
+/playwright/.cache/
+node_modules/
+/test-results/
+/playwright-report/
+reports/json-report/report.json
+reports/HTMLReport/test-report.html

@@ -1,0 +1,23 @@
+  {
+    "default": {
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "dryRun": false,
+        "timeout": 7000,
+        "paths": [
+            "e2e/test/features/**/*.feature"
+        ],
+        "require": [
+            "e2e/test/steps/**/*.ts",
+            "e2e/hooks/hooks.ts"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": [
+          "progress-bar",
+          ["json", "reports/json-report/report.json"]
+        ]
+    }
+  }
